@@ -1,1 +1,6 @@
 command - to pass linux commands in tasks.
+
+ansible.builtin.debug ~ debug:
+  This module prints statements during execution and can be useful for debugging variables or expressions without necessarily halting the playbook.
+  Useful for debugging together with the ‘when:’ directive.
+
